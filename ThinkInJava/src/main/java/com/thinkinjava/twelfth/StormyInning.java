@@ -1,7 +1,5 @@
 package com.thinkinjava.twelfth;
 
-import javax.xml.bind.ValidationException;
-
 public class StormyInning extends Inning implements Storm {
 
     public StormyInning() throws BaseballException, RainedOut {
@@ -14,7 +12,7 @@ public class StormyInning extends Inning implements Storm {
     }
 
     @Override
-    public void atBat() throws Strike, Foul {
+    public void atBat() throws PopFoul {
 
     }
 
